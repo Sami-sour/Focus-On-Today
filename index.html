@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus on today</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="outer-div">
+      <div class="main">
+        <div class="focus-header">
+          <span class="focus">Focus on</span>
+          <span class="today">Today</span>
+        </div>
+
+        <div class="main-div">
+          <div class="inner-div">
+            <div class="focus-main">
+              <div class="second-header">
+                <span class="focus-today"
+                  >Today<i id="sun" class="fa-solid fa-sun"></i>
+                  <i class="fa-solid fa-moon" id="moon"></i
+                ></span>
+
+
+
+                <p class="date"></p>
+              </div>
+
+
+              <div class="greeting"></div>
+              
+            <div class="new-task">
+              <div class="add-task">
+                <p class="task">Add More Task</p>
+                <button class="plus-btn">+</button>
+              </div>
+            </div>
+
+
+            
+
+            <div class="adding-task">
+              <div class="new-tasks">
+                <button class="button">
+                  <img src="check.png" alt="tick" />
+                </button>
+                <input type="text" placeholder="Add New Goals" />
+                <select id="priority-order">
+                  <option value="priority">Priority</option>
+                  <option value="High" id="high">High</option>
+                  <option value="Medium" id="medium">Medium</option>
+                  <option value="Low" id="">Low</option>
+                </select>
+                <button class="bin">
+                  <img src="bin.png" alt="bin" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
